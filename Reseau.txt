@@ -1,0 +1,166 @@
+MOOV:Togo
+Menu principal:*100#
+Solde:*101#
+Connaître son numéro :*106#
+Transfert de crédit:*102*montant*numéro*code secret#
+Moov Money (Flooz) :*155#
+Transfert vers Moov:*155*1*1*numéro*montant*code#
+Paiement de factures:*155*4#
+Achat de crédit:*155*3*1*montant*code#
+
+Togocom:Togo
+Solde:*444#
+Connaître son numéro:*555#
+Activer internet:*104*1#
+Forfaits Voice+Data:*919#
+Forfait journalier:*919*1#
+Forfait 10 jours:*919*4#
+Data nuit:*919*10#
+SOS crédit:*445#
+
+MTN:Ghana
+Vérifier le solde:*124#
+Recharger du crédit:*134*PIN#
+Forfaits voix et data:*138#
+MTN Zone Bundle:*135*55*1#
+MTN Nkomode (Appels gratuits après 1 min):*315#
+MTN Free Call 6 mois (nouveaux abonnés):*550#
+Transfert de crédit:*198#
+MTN Mobile Money:*170#
+
+Vodafone:Ghana
+Vérifier le solde:*124#
+Recharger du crédit:*134*PIN#
+Forfaits internet:*700#
+Transfert de crédit:*516#
+Vodafone Cash:*110#
+Numéro personnel:*127#
+
+AirtelTigo:Ghana
+Vérifier le solde:*124#
+Recharger du crédit:*134*PIN#
+Forfaits data:*125#
+AirtelTigo Money:*500#
+Transfert de crédit:*557#
+Numéro personnel:*703#
+Forfaits Internet 1 Go:*133*5#
+Forfaits Internet 4 Go:*133*7#
+
+MTN:Bénin
+Menu principal:*123#
+Solde:*124#
+Connaître son numéro:*123*1*1#
+Transfert de crédit:*104*montant*numéro*code#
+MTN Mobile Money:*400#
+Achat de crédit:*133*montant#
+
+Moov:Bénin
+Menu principal:*155#
+Solde:*155*1*1#
+Connaître son numéro:*155*1*2#
+Transfert de crédit:*155*2*1*numéro*montant*code#
+Flooz:*155#
+Paiement de factures:*155*4#
+Achat de crédit:*155*3*1*montant*code#
+
+Orange:Burkina Faso
+Menu principal:#144#
+Solde:#144*1#
+Connaître son numéro:#144*6#
+Transfert de crédit:#144*5#
+Orange Money:#144#
+Achat de crédit:#144*3#
+
+Telmob:Burkina Faso
+Menu principal:*555#
+Solde:*555*1#
+Transfert de crédit:*555*2#
+Achat de crédit:*555*3#
+
+Unitel:Angola
+Solde:*102#
+Forfaits internet:*111#
+Unitel Money:*449#
+
+Movicel:Angola
+Solde:*100#
+Forfaits:*191#
+Recharge:*191*code#
+
+Orange:Cameroun
+Menu principal:#150#
+Solde:#150*1#
+Connaître son numéro:#150*3#
+Transfert de crédit:#150*2#
+Orange Money:#150#
+Achat de crédit:#150*4#
+
+MTN:Cameroun
+Menu principal:*123#
+Solde:*155#
+Connaître son numéro:*123*1*1#
+Transfert de crédit:*150*montant*numéro*code#
+MTN Mobile Money:*126#
+
+Africell:République centrafricaine
+Menu principal:*123#
+Solde:*124#
+Transfert de crédit:*125#
+Africell Money:*126#
+
+Vodacom:République centrafricaine
+Solde:*100#
+Vodacash:*140#
+
+Mascom:Botswana
+Solde:*167#
+Forfaits:*148#
+Transfert de crédit:*179#
+
+Orange:Botswana
+Solde:*123#
+Orange Money:*145#
+
+MTN:Afrique du Sud
+Solde:*136#
+Forfaits:*141#
+MTN Mobile Money:*120*555#
+
+Vodacom:Afrique du Sud
+Solde:*111#
+Achat de crédit:*135#
+Vodacom M-Pesa:*120*321#
+
+Cell C:Afrique du Sud
+Solde:*101#
+Forfaits:*147#
+Recharge:*102*code#
+
+Mobilis:Algérie
+Solde:*222#
+Internet:*600#
+Transfert de crédit:*610*numéro*montant#
+
+Djezzy:Algérie
+Solde:*710#
+Internet:*720#
+Transfert de crédit:*770*numéro*montant#
+
+Ooredoo:Algérie
+Solde:*200#
+Internet:*151#
+Transfert de crédit:*121*numéro*montant#
+
+Unitel:Cap-Vert
+Solde:*120#
+Forfaits:*123#
+Unitel Money:*124#
+
+Telecom:Burundi
+Solde:*222#
+Transfert de crédit:*223#
+Lumicash:*555#
+
+Econet:Burundi
+Solde:*100#
+Econet Money:*111#
