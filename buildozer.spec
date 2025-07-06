@@ -1,6 +1,6 @@
 [app]
 title = CodeSaver
-package.name = monappkivymd
+package.name = Zelipro
 package.domain = org.example
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,txt,jpeg
