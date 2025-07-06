@@ -5,7 +5,7 @@ package.domain = org.example
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,txt,jpeg
 source.include_patterns = Flags/*,Reso/*,*.txt,*.jpeg,*.jpg,*.png
-version = 0.1
+version = 1.4
 requirements = python3,kivy,kivymd,pillow
 icon.filename = %(source.dir)s/Logo.png
 
