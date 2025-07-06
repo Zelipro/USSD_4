@@ -1,0 +1,1 @@
+Ici j'ia juste fait un ajout telle que si il n'y pas l'image d'un reseau qu'on utiliser l'image (Logo) de l'application a la place
