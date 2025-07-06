@@ -1,0 +1,63 @@
+name: Build Android APK
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build-android:
+    name: Build for Android
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Verify project structure
+        run: |
+          echo "Project structure:"
+          ls -la
+          echo "Checking required files:"
+          test -f main.py && echo "✓ main.py exists" || echo "✗ main.py missing"
+          test -f main.kv && echo "✓ main.kv exists" || echo "✗ main.kv missing"
+          test -f buildozer.spec && echo "✓ buildozer.spec exists" || echo "✗ buildozer.spec missing"
+          test -f Logo.png && echo "✓ Logo.png exists" || echo "✗ Logo.png missing"
+          test -f Reseau.txt && echo "✓ Reseau.txt exists" || echo "✗ Reseau.txt missing"
+          test -d Flags && echo "✓ Flags directory exists" || echo "✗ Flags directory missing"
+          test -d Reso && echo "✓ Reso directory exists" || echo "✗ Reso directory missing"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install buildozer
+          pip install cython
+
+      - name: Build with Buildozer
+        uses: ArtemSBulgakov/buildozer-action@v1
+        id: buildozer
+        with:
+          workdir: .
+          buildozer_version: stable
+        env:
+          BUILDOZER_LOG_LEVEL: 2
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-apk
+          path: ${{ steps.buildozer.outputs.filename }}
+          retention-days: 30
+
+      - name: Upload build logs
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-logs
+          path: .buildozer/
+          retention-days: 5
